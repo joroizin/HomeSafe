@@ -1,5 +1,6 @@
 package com.joroizin.homesafe
 
+import android.content.Intent
 import android.os.Bundle
 import android.view.View
 import android.widget.Toast
@@ -15,14 +16,9 @@ class ConfigActivity : AppCompatActivity() {
 
     fun onContinue(view: View) {
 
-//        val intent = Intent(this, ConfigActivity::class.java).apply {
-//        }
-//        startActivity(intent)
+        val intent = Intent(this, MainActivity::class.java).apply {
+        }
+        startActivity(intent)
 
-        val text = "Not supported yet"
-        val duration = Toast.LENGTH_SHORT
-
-        val toast = Toast.makeText(applicationContext, text, duration)
-        toast.show()
     }
 }
