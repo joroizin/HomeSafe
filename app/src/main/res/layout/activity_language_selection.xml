@@ -8,10 +8,11 @@
     android:background="@drawable/background_selector"
     tools:context=".LanguageSelectionActivity">
 
-    <TextView
+    <ImageView
+        android:contentDescription="Logo"
         android:layout_width="wrap_content"
         android:layout_height="wrap_content"
-        android:text="Logo"
+        android:src="@drawable/Logo"
         app:layout_constraintBottom_toTopOf="@+id/textView2"
         app:layout_constraintEnd_toEndOf="parent"
         app:layout_constraintStart_toStartOf="parent"
